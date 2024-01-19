@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngopi</title>
+    <!--fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap" rel="stylesheet">
+<!--icon  -->
+ <script src="https://unpkg.com/feather-icons"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- sidebar -->
+    <input type="checkbox" id="check">
+    <label for="check">
+       <i class="fas fa-bars"></i>
+
+    </label>
+
+    <!-- navbar start-->
+   <nav class="navbar">
+<a href="logo" class="navbar-logo">kedai <span>kopi</span></a>
+<div class="navbar-nav">
+    <a href="#home">Home</a>
+    <a href="#about">tentang kami</a>
+    <a href="#menu-section">menu</a>
+    <a href="contact.html">kontak</a>
+</div>
+
+<div class="navbar-extra">
+<a href="#" id="search" ><i data-feather="search"></i></a>
+<a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+<a href="#" id="menu"><i data-feather="menu"></i></a>
+</div>
+   </nav>
+    <!-- navbar end -->
+    
+    <!-- hero section start -->
+<section class="hero" id="home">
+    <main class="content">
+        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, id.</p>
+        <a href="#" class="cta">Beli Sekarang</a>
+    </main>
+</section>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section id="about" class="about">
+        <h2><span>Tentang </span>Kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolor.</p>
+        
+        <div class="row">
+            <div class="about-img">
+            <img src="about.jpg" alt="Tentang Kami">
+            </div>
+            <div class="content">
+             <h3>Kenapa memilih kopi kami?</h3>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quae!</p>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+    
+    <!-- menu section start -->
+     <section id="menu-section" class="menu-section">
+        <h2><span>Menu</span> Kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, debitis.</p>
+        <div class="row-menu"></div>
+        <div class="menu-card">
+            <img src="new-coffee.jpg" alt="espresso" class="menu-card-image">
+            <h3 class="menu-card-title">- espresso -</h3>
+            <p class="menu-card-price">IDK 15K</p>
+
+        </div>
+     </section>
+    <!-- menu section end -->
+
+
+    <!--icon  -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
